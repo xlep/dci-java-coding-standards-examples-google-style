@@ -2,7 +2,7 @@
 
 ## Find bad code passages
 Parts of the code in this project violates the rules defined in the Google Java Style Guide. Each source code file deals with specific section of the Style Guide. Find and correct these code-sections without the use of the CheckStyle plugin.
-There are 3 errors in each file.
+There are 2 or 3 errors in each file.
 
 * FileStructure.java -> https://google.github.io/styleguide/javaguide.html#s3-source-file-structure
 * Formatting.java -> https://google.github.io/styleguide/javaguide.html#s4-formatting

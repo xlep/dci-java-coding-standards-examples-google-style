@@ -5,22 +5,25 @@ import java.text.SimpleDateFormat;
 import java.util.Date;
 
 /**
- * Example class containing some sections that violate the Google Java Style Guide.
+ * Example class that no longer contains bad style.
  */
 public class Naming {
 
-  public static final String datePatternConstant = "dd.MM.yyyy";
+  // constants should use all capital letters
+  public static final String DATE_PATTERN_CONSTANT = "dd.MM.yyyy";
 
-  public static boolean IsTrue() {
+  // method names start with a lowercase letter
+  public static boolean isTrue() {
     return true;
   }
 
-  public static boolean isBoolean(Boolean input_value) {
-    return input_value instanceof Boolean;
+  // parameter names should use CamelCase
+  public static boolean isBoolean(Boolean inputValue) {
+    return inputValue instanceof Boolean;
   }
 
   public Date parseDateString(String inputString) throws ParseException {
-    SimpleDateFormat dateFormat = new SimpleDateFormat(datePatternConstant);
+    SimpleDateFormat dateFormat = new SimpleDateFormat(DATE_PATTERN_CONSTANT);
     return dateFormat.parse(inputString);
   }
 
