@@ -25,6 +25,9 @@ public class Formatting {
     return false;
   }
 
+  /**
+   * Checks if the given date fits the current month. Returns true if that is the case.
+   */
   public boolean isCurrentMonth(Date date)
   {
     Calendar calInput = Calendar.getInstance();
